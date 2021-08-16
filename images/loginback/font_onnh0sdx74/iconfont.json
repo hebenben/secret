@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13743961",
+      "name": "login",
+      "font_class": "login",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    }
+  ]
+}

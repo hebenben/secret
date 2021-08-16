@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/music.min.css">
+    <link rel="stylesheet" href="../fonts/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/audio.min.css">
+    <style>
+
+         
+         h1,
+         h2,
+         h3,
+         h4,
+         h5,
+         h6 {
+             /* color: #fefefe; */
+             font-family: 'Space Mono', Helvetica, Arial, sans-serif;
+             font-weight: 700;
+         }
+         
+         a,
+         .highlight {
+             color: #d4ff00;
+         }
+         
+         a:hover {
+             color: #b6db00;
+         }
+         
+         .icon {
+             display: inline-block;
+             width: 1em;
+             height: 1em;
+             stroke-width: 0;
+             stroke: currentColor;
+             fill: currentColor;
+         }
+ 
+         .helloAccount{
+             color: #fefefe;
+             padding-top: 3rem;
+             margin: 3rem 1.8rem;
+             font-size: xx-large;
+         }
+         .logoutButton{
+             margin: 10rem 10rem 3rem;
+             border-radius: 1rem;
+         }
+         .accountClose{
+             color: #d4ff00;
+             position: absolute;
+             right: 0.5rem;
+             top: 0.5rem;
+         }
+         .backActive{
+            animation:gogogo 8s infinite linear ;
+         }
+         
+        @-webkit-keyframes gogogo {
+            0%{
+                
+                -webkit-transform: rotate(0deg);
+            
+            }
+            50%{
+                -webkit-transform: rotate(180deg);
+            }
+            100%{
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+
+
+     </style>
+</head>
+
+<body>
+    <button class="backButton iconfont icon-fanhui"></button>
+    <div class="contentAccount">
+        <!-- <button class="accountLogo iconfont icon-icon-"></button> -->
+        <div class="loginWrap">
+                <p class="accountClose iconfont icon-guanbi"></p>
+                <h2 class="helloAccount"></h2>
+                <div class="btn">
+                  <input type="button" id="submit" class="submit logoutButton" value="退出账户" >
+                </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="top">
+            <div class="circle">
+                <div class="backArea">
+                    <img class="back" src="../images/music/background/backgroundCircle1.png" alt="">
+                </div>
+            </div>
+            <div class="commit">
+                <span class="commitTitle">精彩评论</span>
+                <div class="commitList">
+                    <!-- <h3>精彩评论</h3> -->
+                    <!-- <div class="eachCommit">
+                        <div>
+                            <img src="../images/music/UserImg/user1.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="userName">土瓜湾的乌云</p>
+                            <span>：我真不知道周杰伦当年开了什么挂。 拍了一部水平不低的电影，作了一张水平更胜电影一筹的原声。 </span>
+                            <p class="date">2015年7月25日</p>
+                        </div>
+                    </div>
+                    <div class="eachCommit">
+                        <div>
+                            <img src="../images/music/UserImg/user1.jpg" alt="">
+                        </div>
+                        <div>
+                            <p class="userName">土瓜湾的乌云</p>
+                            <span>：我真不知道周杰伦当年开了什么挂。 拍了一部水平不低的电影，作了一张水平更胜电影一筹的原声。 </span>
+                            <p class="date">2015年7月25日</p>
+                        </div>
+                    </div> -->
+
+
+                </div>
+                <div class="songTitle">
+                    <p>Opening</p>
+                </div>
+            </div>
+            <div class="list">
+                <button class="accountLogo iconfont icon-icon-"></button>
+                <div class="j-flag" id="auto-id-pJGUvv5IliGfZpFp">
+                    <table class="m-table m-table-album">
+                        <thead>
+                            <tr>
+                                <th class="first w1">
+                                    <div class="wp">&nbsp;</div>
+                                </th>
+                                <th>
+                                    <div class="wp">歌曲标题</div>
+                                </th>
+                                <th class="w2-1">
+                                    <div class="wp">时长</div>
+                                </th>
+                                <th class="w4">
+                                    <div class="wp">歌手</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="1858271628270017932" class="even js-dis">
+                                <td class="left">
+
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="Opening">Opening</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">02:28</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="Terdsak Janpan"><span title="Terdsak Janpan"><a class=""
+                                                href="javascript:;" hidefocus="true">Terd<div class="soil">X</div>
+                                                sak&nbsp;Janpan</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858291628270017932" class=" js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="脚踏车">脚踏车</b></a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">02:19</span>
+         
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858311628270017932" class="even js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b title="早操">早操</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:36</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858331628270017932" class=" js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="淡水海边">淡水海边</b></a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:05</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858351628270017932" class="even js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b title="斗琴">斗琴</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">02:14</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858371628270017932" class=" js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="湘伦小雨四手联弹">湘伦小雨四手联弹</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">00:40</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858381628270017932" class="even js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="Ride&nbsp;With&nbsp;Me">Ride With Me</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:28</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="Terdsak Janpan"><span title="Terdsak Janpan"><a class=""
+                                                href="javascript:;" hidefocus="true">Terdsak&nbsp;<div
+                                                    class="soil">Tw</div>Janpan</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858391628270017932" class=" js-dis">
+                                <td class="left">
+                                
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="父与子">父与子</b></a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">02:17</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858401628270017932" class="even js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="情人的眼泪">情人的眼泪</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">05:59</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="姚苏蓉"><span title="姚苏蓉"><a class="" href="javascript:;"
+                                                hidefocus="true">姚苏蓉</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858421628270017932" class=" js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="First&nbsp;Kiss">First Kiss</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:31</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858441628270017932" class="even js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="女孩别为我哭泣">女孩别为我哭泣</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:21</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="黄俊郎"><span title="黄俊郎"><a class="" href="javascript:;"
+                                                hidefocus="true">黄俊郎</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858461628270017932" class=" js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="晴天娃娃">晴天娃娃</b></a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">02:31</span>
+
+                                </td>
+                                <td class="">
+                                    <div class="text" title="江语晨"><span title="江语晨"><a class="" href="javascript:;"
+                                                hidefocus="true">江语晨</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858481628270017932" class="even js-dis">
+                                <td class="left">
+
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="阿郎与阿宝">阿郎与阿宝</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">02:20</span>
+
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858501628270017932" class=" js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="与父共舞">与父共舞</b></a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:25</span>
+
+                                </td>
+                                <td class="">
+                                    <div class="text" title="Terdsak Janpan"><span title="Terdsak Janpan"><a class=""
+                                                href="javascript:;" hidefocus="true">T<div class="soil">eb</div>
+                                                erdsak&nbsp;Janpan</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858521628270017932" class="even js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="路小雨">路小雨</b></a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:39</span>
+
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858541628270017932" class=" js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="The&nbsp;Swan">The Swan</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">02:32</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858551628270017932" class="even js-dis">
+                                <td class="left"></td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="Flash&nbsp;Back">Flash Back</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">03:18</span>
+
+                                </td>
+                                <td class="">
+                                    <div class="text" title="Terdsak Janpan"><span title="Terdsak Janpan"><a class=""
+                                                href="javascript:;" hidefocus="true">Terdsak&nbsp;<div
+                                                    class="soil">EQA</div>Janpan</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858561628270017932" class=" js-dis">
+                                <td class="left">
+
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="Secret&nbsp;(慢板)">Secret (慢板)</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:07</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858571628270017932" class="even js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="Angel">Angel</b></a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:53</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="Terdsak Janpan"><span title="Terdsak Janpan"><a class=""
+                                                href="javascript:;" hidefocus="true">Terds<div class="soil">Q</div>
+                                                ak&nbsp;Janpan</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858591628270017932" class=" js-dis">
+                                <td class="left">
+
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="小雨写立可白Ⅰ">小雨写立可白Ⅰ</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:15</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858611628270017932" class="even js-dis">
+                                <td class="left">
+                                 
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="小雨写立可白Ⅱ">小雨写立可白Ⅱ</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:40</span>
+                                   
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858631628270017932" class=" js-dis">
+                                <td class="left">
+                                  
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="Secret&nbsp;(加长快板)">Secret (加长快板)</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:25</span>
+
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858651628270017932" class="even js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b title="琴房">琴房</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:41</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858671628270017932" class=" js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="Ending">Ending</b></a></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">01:25</span>
+
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                            <tr id="1858681628270017932" class="even js-dis">
+                                <td class="left">
+                                </td>
+                                <td class="">
+                                    <div class="f-cb">
+                                        <div class="tt">
+                                            <div class="ttc"><span class="txt"><a href="javascript:;"><b
+                                                            title="不能说的秘密">不能说的秘密</b></a><span
+                                                        data-res-id="185868" data-res-action="mv" title="播放mv"
+                                                        class="mv">MV</span></span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class=" s-fc3"><span class="u-dur ">04:56</span>
+                                </td>
+                                <td class="">
+                                    <div class="text" title="周杰伦"><span title="周杰伦"><a class="" href="javascript:;"
+                                                hidefocus="true">周杰伦</a></span></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="player"></div> -->
+    </div>
+    <div class="player">
+        <div class="audio"></div>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="../node_modules/qs/dist/qs.js"></script>
+    <script src="../node_modules/blueimp-md5/js/md5.min.js"></script>
+    <script src="../js/http.min.js"></script>
+    <script src="../js/loginCheck.min.js"></script>
+    <script src="../js/audio.min.js"></script>
+</body>
+
+</html>

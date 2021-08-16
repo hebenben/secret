@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Still Photography</title>
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/stillPhotography.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:700,700i|Roboto:300,300i" rel="stylesheet">
+
+    <style>
+       .pace .pace-progress {
+            background: #d4ff00;
+        }
+
+        body {
+            background: #13140f;
+            color: #8a8a8a;
+            font-family: 'Roboto', Helvetica, Arial, sans-serif;
+            font-weight: 300;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #fefefe;
+            font-family: 'Space Mono', Helvetica, Arial, sans-serif;
+            font-weight: 700;
+        }
+        
+        a,
+        .highlight {
+            color: #d4ff00;
+        }
+        
+        a:hover {
+            color: #b6db00;
+        }
+        
+        .icon {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            stroke-width: 0;
+            stroke: currentColor;
+            fill: currentColor;
+        }
+
+        .helloAccount{
+            color: #fefefe;
+            padding-top: 3rem;
+            margin: 3rem 1.8rem;
+            font-size: xx-large;
+        }
+        .logoutButton{
+            margin: 10rem 10rem 3rem;
+            border-radius: 1rem;
+        }
+        .accountClose{
+            color: #d4ff00;
+            position: absolute;
+            right: 0.5rem;
+            top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <button class="backButton iconfont icon-fanhui"></button>
+    <div class="contentAccount">
+        <button class="accountLogo iconfont icon-icon-"></button>
+        <div class="loginWrap">
+                <p class="accountClose iconfont icon-guanbi"></p>
+                <h2 class="helloAccount"></h2>
+                <div class="btn">
+                  <input type="button" id="submit" class="submit logoutButton" value="退出账户" >
+                </div>
+        </div>
+    </div>
+    <main class="main">
+        <header class="section" id="stillPhotography" data-magellan-target="stillPhotography" data-deep-linking="true">
+            <div class="container vert-center">
+                <div class="content">
+                    <div class="column">
+                        <!-- <div class="cell"><a href="javascript:;"><img src="../images/smallImage/page1.webp" alt=""></a></div> -->
+                    </div>
+                    <div class="column">
+                        <!-- <div class="cell"><a href="javascript:;"><img src="../images/smallImage/page1.webp" alt=""></a></div> -->
+                    </div>
+                    <div class="column">
+                        <!-- <div class="cell"><a href="javascript:;"><img src="../images/smallImage/page1.webp" alt=""></a></div> -->
+                    </div>
+                    <div class="column">
+                        <!-- <div class="cell"><a href="javascript:;"><img src="../images/smallImage/page1.webp" alt=""></a></div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="loadMoreBox">见底拉</div>
+        </header>
+    </main>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="../node_modules/qs/dist/qs.js"></script>
+    <script src="../node_modules/blueimp-md5/js/md5.min.js"></script>
+    <script src="../js/http.min.js"></script>
+    <script src="../js/loginCheck.min.js"></script>
+    <script src="../js/stillPhotography.min.js"></script>
+
+</body>
+</html>

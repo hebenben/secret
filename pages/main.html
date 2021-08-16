@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<script>
+    var __pbpa = true;
+</script>
+<!doctype html
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret</title>
+    <link rel="stylesheet" href="../fonts/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:700,700i|Roboto:300,300i" rel="stylesheet">
+
+    <style>
+        .pace .pace-progress {
+            background: #d4ff00;
+        }
+
+        body {
+            background: #13140f;
+            color: #8a8a8a;
+            font-family: 'Roboto', Helvetica, Arial, sans-serif;
+            font-weight: 300;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #fefefe;
+            font-family: 'Space Mono', Helvetica, Arial, sans-serif;
+            font-weight: 700;
+        }
+        
+        a,
+        .highlight {
+            color: #d4ff00;
+        }
+        
+        a:hover {
+            color: #b6db00;
+        }
+        
+        .icon {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            stroke-width: 0;
+            stroke: currentColor;
+            fill: currentColor;
+        }
+        
+        .hamburger-inner,
+        .hamburger-inner:after,
+        .hamburger-inner:before {
+            background-color: #fefefe;
+        }
+        
+        .navigation {
+            background-color: #13140f;
+        }
+        
+        .nav-inner ul li a {
+            color: #8a8a8a;
+        }
+        
+        .nav-inner ul li a:hover {
+            color: #fefefe;
+        }
+        
+        .button {
+            font-family: 'Space Mono', Helvetica, Arial, sans-serif;
+        }
+        
+        .button.hollow {
+            border: 1px solid #d4ff00;
+            color: #d4ff00;
+        }
+        
+        .button.hollow:focus,
+        .button.hollow:hover {
+            border: 1px solid #b6db00;
+            color: #b6db00;
+        }
+        
+        #intro:before {
+            background: url("../images/bannerback/login-background2.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            opacity: 0.1;
+        }
+        
+        #introOne:before {
+            background: url("../images/bannerback/login-background3.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            opacity: 0.1;
+        }
+        
+        #music:before {
+            background: url("../images/bannerback/login-background4.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            opacity: 0.1;
+        }
+        
+        #stillPhotography:before {
+            background: url("../images/bannerback/login-background5.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            opacity: 0.1;
+        }
+        #introFour:before {
+            background: url("../images/bannerback/login-background6.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            opacity: 0.1;
+        }
+        
+        .logospace {
+            background: transparent url(https://64.media.tumblr.com/avatar_1931dbc63621_96.pnj) center center no-repeat;
+        }
+        
+    
+        .nav-inner small {
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-family: 'Space Mono', Helvetica, Arial, sans-serif;
+            color: #fefefe;
+        }
+        
+        .reveal {
+            z-index: 1007;
+        }
+        .helloAccount{
+            color: #fefefe;
+            padding-top: 3rem;
+            margin: 3rem 1.8rem;
+            font-size: xx-large;
+        }
+        .logoutButton{
+            margin: 10rem 10rem 3rem;
+            border-radius: 1rem;
+        }
+        .accountClose{
+            color: #d4ff00;
+            position: absolute;
+            right: 0.5rem;
+            top: 0.5rem;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- main site navigation -->
+    <nav class="navigation" id="nav" data-toggler=".is-active">
+        <div class="container">
+            <div class="nav-inner">
+                <ul>
+                    <li><small>Navigate</small></li>
+                    <li><a href="introduce.html">About</a></li>
+
+
+                    <li><a href="music.html">Music</a></li>
+
+                    <li><a href="stillPhotography.html">Still Photography</a></li>
+
+
+                </ul>
+
+                <ul class="tag-menu">
+                    <li><small>Tags</small></li>
+
+                    <li><a href="javascript:;">It</a></li>
+
+
+                    <li><a href="javascript:;">is</a></li>
+
+
+                    <li><a href="javascript:;">what</a></li>
+
+
+                    <li><a href="javascript:;">it</a></li>
+
+
+                    <li><a href="javascript:;">is</a></li>
+
+
+                    <li><a href="javascript:;">.</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end main site navigation -->
+
+    <!-- account-->
+    <!-- <button class="accountLogo iconfont icon-icon-"></button> -->
+    <div class="contentAccount">
+        <button class="accountLogo iconfont icon-icon-"></button>
+        <div class="loginWrap">
+                <p class="accountClose iconfont icon-guanbi"></p>
+                <h2 class="helloAccount"></h2>
+                <div class="btn">
+                  <input type="button" id="submit" class="submit logoutButton" value="退出账户" >
+                </div>
+        </div>
+    </div>
+    <!-- end account-->
+
+    <!-- nav button -->
+    <div class="nav-button">
+        <button data-toggle="nav" class="hamburger hamburger--arrow" type="button">
+              <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+              </span>
+          </button>
+    </div>
+    <!-- end nav button -->
+
+
+    <!-- index page vertical nav -->
+    <ul class="vertical-nav" data-magellan data-active-class="active" data-bar-offset="-25">
+        <li>
+            <a href="#intro">
+                <span class="dot"></span>
+                <span class="label">Home</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#introOne">
+                <span class="dot"></span>
+                <span class="label">About</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#music">
+                <span class="dot"></span>
+                <span class="label">Music</span>
+            </a>
+        </li>
+
+        <li>
+            <a href="#stillPhotography">
+                <span class="dot"></span>
+                <span class="label">Still Photography</span>
+            </a>
+        </li>
+
+
+        <li>
+            <a href="#introFour">
+                <span class="dot"></span>
+                <span class="label">Contact</span>
+            </a>
+        </li>
+
+    </ul>
+    <!-- end index page vertical nav -->
+
+
+    <main class="main">
+
+        <!-- intro -->
+        <header class="section" id="intro" data-magellan-target="intro" data-deep-linking="true">
+            <div class="container vert-center">
+                <div class="content">
+                    <a href="#">
+                        <div class="logospace"></div>
+                    </a>
+
+                    <h1 class="hero">不能说得秘密 <br> Simple <br><span class="highlight">But</span> very beautiful</h1>
+                    <!-- <h1 class="hero">不能说得秘密 </h1> -->
+                    <button class="buttonInfo subheader">MORE</button>
+                </div>
+            </div>
+        </header>
+        <!-- end intro -->
+
+        <!-- about -->
+        <header class="section" id="introOne" data-magellan-target="introOne" data-deep-linking="true">
+            <div class="container vert-center">
+                <div class="content">
+                    <!-- <a href="#">
+                        <div class="logospace"></div>
+                    </a> -->
+
+                    <!-- <h1 class="hero">We are Casimir. <br> We'll make your <br><span class="highlight">business</span> awesome.</h1> -->
+                    <h1 class="hero">生命 <br> Every Second is<br><span class="highlight">Life's</span> suprise.</h1>
+
+                    <button class="subheader">hahahahah.</button>
+                </div>
+            </div>
+        </header>
+        <!-- end about -->
+
+        <!-- work -->
+        <header class="section" id="music" data-magellan-target="music" data-deep-linking="true">
+            <div class="container vert-center">
+                <div class="content">
+                    <!-- <a href="#">
+                        <div class="logospace"></div>
+                    </a> -->
+
+                    <!-- <h1 class="hero">We are Casimir. <br> We'll make your <br><span class="highlight">business</span> awesome.</h1> -->
+                    <h1 class="hero">原声带 <br> let the music<br><span class="highlight">Heal</span> your soul</h1>
+
+                    <button class="buttonMusic subheader">MORE</button>
+                </div>
+            </div>
+        </header>
+        <!-- end work-->
+
+        <!-- clients -->
+        <header class="section" id="stillPhotography" data-magellan-target="stillPhotography" data-deep-linking="true">
+            <div class="container vert-center">
+                <div class="content">
+                    <!-- <a href="#">
+                        <div class="logospace"></div>
+                    </a> -->
+
+                    <h1 class="hero">回忆 <br> No matter what happens,<br><span class="highlight">Some memories</span> cannot be replaced.</h1>
+
+                    <button class="buttonPic subheader">MORE</button>
+                </div>
+            </div>
+        </header>
+        <!-- end clients -->
+
+        <!-- Contact -->
+        <header class="section" id="introFour" data-magellan-target="introFour" data-deep-linking="true">
+            <div class="container vert-center">
+                <div class="content">
+                    <!-- <a href="#">
+                        <div class="logospace"></div>
+                    </a> -->
+
+                    <h1 class="hero">爱情 <br> Love is like war: Easy to begin <br><span class="highlight">But</span> hard to end</h1>
+
+                    <p class="subheader">Joke</p>
+                </div>
+            </div>
+        </header>
+        <!-- end Contact -->
+
+
+
+    </main>
+      <script src="../js/jquery.min.js"></script>
+      <script src="../node_modules/axios/dist/axios.min.js"></script>
+      <script src="../node_modules/qs/dist/qs.js"></script>
+      <script src="../node_modules/blueimp-md5/js/md5.min.js"></script>
+      <script src="../js/http.min.js"></script>
+      <script src="../js/index.min.js"></script>
+      <script src="../js/main.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Still Photography</title>
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../fonts/iconfont.css">
+    <link rel="stylesheet" href="../css/introduce.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:700,700i|Roboto:300,300i" rel="stylesheet">
+
+    <style>
+       .pace .pace-progress {
+            background: #d4ff00;
+        }
+
+        body {
+            background: #13140f;
+            color: #8a8a8a;
+            font-family: 'Roboto', Helvetica, Arial, sans-serif;
+            font-weight: 300;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #fefefe;
+            font-family: 'Space Mono', Helvetica, Arial, sans-serif;
+            font-weight: 700;
+        }
+        
+        a,
+        .highlight {
+            color: #d4ff00;
+        }
+        
+        a:hover {
+            color: #b6db00;
+        }
+        
+        .icon {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+            stroke-width: 0;
+            stroke: currentColor;
+            fill: currentColor;
+        }
+
+        .helloAccount{
+            color: #fefefe;
+            padding-top: 3rem;
+            margin: 3rem 1.8rem;
+            font-size: xx-large;
+        }
+        .logoutButton{
+            margin: 10rem 10rem 3rem;
+            border-radius: 1rem;
+        }
+        .accountClose{
+            color: #d4ff00;
+            position: absolute;
+            right: 0.5rem;
+            top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <button class="backButton iconfont icon-fanhui"></button>
+    <div class="contentAccount">
+        <button class="accountLogo iconfont icon-icon-"></button>
+        <div class="loginWrap">
+                <p class="accountClose iconfont icon-guanbi"></p>
+                <h2 class="helloAccount"></h2>
+                <div class="btn">
+                  <input type="button" id="submit" class="submit logoutButton" value="退出账户" >
+                </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="pic">
+            <img src="../images/banner.jpg" alt="">
+        </div>
+        <div class="info">
+            <div class="infoList">
+                <h1>不能说的秘密</h1>
+                <p>导演: <span>杰伦</span></p>
+                <p>编剧: <span>周杰伦 / 杜致朗</span></p>
+                <p>主演: <span>周杰伦 / 桂纶镁 / 黄秋生 / 曾恺玹 / 苏明明 / 更多...</span></p>
+                <p>类型: <span>爱情 / 音乐 / 奇幻</span></p>
+                <p>制片国家/地区: <span>中国香港 / 中国台湾</span></p>
+                <p>语言: <span>汉语普通话 / 英语</span></p>
+                <p>上映日期: <span>2007-07-31(中国大陆) / 2007-07-27(中国台湾)</span></p>
+                <p>片长: <span>101分钟</span></p>
+                <p>又名: <span>Secret</span></p>
+                <p>IMDb: <span>tt1037850</span></p>
+            </div>
+            <div class="infoDetails">
+                <h2>剧情简介·······</h2>
+                <p>　　叶湘伦（周杰伦 饰）是淡江艺术高中的一名插班生，父亲（黄秋生 饰）是该校的一名教师。这天同学晴依（曾恺玹 饰）带他参观学校，接着他独自来到了学校的旧琴房，本身弹得一首好曲的他被某处传来的一首钢琴曲吸引住了。他来到其中一间旧琴房，遇到了路小雨（桂纶镁 饰），纯纯的爱情故事由此发生了。一直以来，叶湘伦都觉得小雨充满了神秘，却无法进一步了解她。叶湘伦约小雨到琴房见面，叶湘伦以为晴依是小雨，跟晴依接吻时被小雨看到，自此之后叶湘伦就没有再看到小雨。叶湘伦到处寻找小雨，发现了那个小雨所说“不能说的秘密”的全部真相</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="../node_modules/qs/dist/qs.js"></script>
+    <script src="../node_modules/blueimp-md5/js/md5.min.js"></script>
+    <script src="../js/http.min.js"></script>
+    <script src="../js/loginCheck.min.js"></script>
+
+
+</body>
+</html>

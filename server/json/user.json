@@ -1,0 +1,27 @@
+[{
+    "id": 1,
+    "name": "hebenben",
+    "password": "8376ac810bb9f231d28fcf1f",
+    "sex": 0,
+    "email": "heyiming11@gmail.com",
+    "phone": "12345678901",
+    "departmentId": 1,
+    "jobId": 1,
+    "desc": "Tire1",
+    "time": 1568640222269,
+    "state": 0
+}, {
+    "id": 2,
+    "name": "guest",
+    "password": "8376ac810bb9f231d28fcf1f",
+    "sex": "0",
+    "email": "zhouxiaotian@163.com",
+    "phone": "23456789012",
+    "departmentId": "2",
+    "jobId": "2",
+    "desc": "guest",
+    "time": 1568640222269,
+    "state": 0
+}]
+
+

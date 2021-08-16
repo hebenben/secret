@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/login.min.css">
+    <link rel="stylesheet" href="../fonts/iconfont.css">
+    <!-- <link rel="stylesheet" href="//at.alicdn.com/t/font_2697036_n9oieghpojn.css"> -->
+</head>
+<body>
+    <i class="icon-bofangzanting iconfont" id="audioPlayer"></i>
+    <div class="content">
+        <div class="login-wrap">
+          <form id="user_login" action="">
+            <i class="iconfont icon-login"></i>
+            <h3>LOGIN</h3>
+            <input class="userName" name="" id="accountName" type="text" placeholder="请输入用户名/手机号/邮箱">
+            <p class="userNameWarning"></p>
+            <input class="userPass" name="password" id="password" type="password" placeholder="请输入密码 6到16位">
+            <p class="userPassWarning"></p>
+            <div class="btn">
+              <input type="button" id="submit" class="submit" value="登录" onclick="return check(this.form);">
+            </div>
+              <div id="CheckMsg" class="msg"></div>
+          </form>
+        </div>
+      </div>
+      <script src="../node_modules/axios/dist/axios.min.js"></script>
+      <script src="../node_modules/qs/dist/qs.js"></script>
+      <script src="../node_modules/blueimp-md5/js/md5.min.js"></script>
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/http.min.js"></script>
+      <script src="../js/login.min.js"></script>
+      <!-- <script src="../js/1.js"></script> -->
+      
+      <audio id="myaudio" src="../music/淡水海边.mp3" autoplay loop="true" hidden="true">
+      </audio>
+</body>
+</html>
